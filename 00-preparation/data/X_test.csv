@@ -1,0 +1,21 @@
+Building Type,Square Footage,Number of Occupants,Appliances Used,Average Temperature,Day of Week
+Residential,36720,58,47,17.08,Weekday
+Commercial,45772,50,45,25.48,Weekday
+Residential,41625,84,17,27.39,Weekend
+Commercial,40337,9,27,16.96,Weekday
+Commercial,29187,82,39,23.54,Weekday
+Residential,16582,33,28,11.13,Weekend
+Commercial,38141,99,23,14.54,Weekday
+Industrial,20517,20,21,29.01,Weekday
+Industrial,47042,53,32,34.36,Weekday
+Commercial,40542,31,19,12.01,Weekday
+Residential,44539,8,44,26.62,Weekday
+Commercial,40452,52,28,23.83,Weekend
+Residential,28461,20,44,14.43,Weekday
+Industrial,21030,90,35,12.96,Weekday
+Industrial,9684,13,9,33.28,Weekend
+Commercial,19926,27,17,19.33,Weekend
+Residential,24563,15,4,28.52,Weekday
+Commercial,41401,87,15,15.54,Weekend
+Residential,39227,18,44,23.36,Weekend
+Residential,2743,3,42,20.36,Weekend

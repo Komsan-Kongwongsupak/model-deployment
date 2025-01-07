@@ -1,0 +1,3 @@
+,name,dtype,count,n_class,null_percent,distribution
+0,Building Type,object,100,3,0.0,multinoulli
+1,Day of Week,object,100,2,0.0,bernoulli
