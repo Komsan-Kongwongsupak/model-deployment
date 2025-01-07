@@ -35,3 +35,33 @@ This repository explores a wide range of techniques for deploying machine learni
    - Managing high traffic with load balancing.  
    - Understanding horizontal and vertical scaling for distributed systems.
 This repository is designed for AI/ML engineers, data scientists, data engineers, programmers, and anyone interested in learning about machine learning model deployment. Whether you're just starting out or looking to enhance your deployment strategies, you'll find valuable resources and hands-on examples to help you apply these techniques to your projects.
+###Techniques Covered
+This repository demonstrates various techniques for deploying machine learning models, ranging from simple setups to advanced, scalable systems. Each technique is accompanied by practical examples, step-by-step guides, and configurations to help you implement them. Below is a breakdown of the techniques covered:
+1. **Model Serving**
+   Learn how to serve machine learning models for real-time predictions via APIs and specialized serving tools:  
+   - **REST APIs**: Build APIs using frameworks like Flask, FastAPI, and Django to serve models and handle requests.  
+   - **gRPC**: Explore gRPC for high-performance, low-latency model communication.  
+   - **Model Serving Tools**: Use tools like TensorFlow Serving, TorchServe, and MLflow Models for efficient and scalable model deployment.
+2. **Containerization**
+   Deploy models in consistent environments using containers:  
+   - **Docker**: Containerize your machine learning applications to ensure portability and reproducibility across environments.  
+   - **Docker Compose**: Manage multi-container setups for more complex applications, such as combining model serving and databases.
+3. **Orchestration**
+   Handle scalability and reliability of deployments in production:  
+   - **Kubernetes**: Use Kubernetes to orchestrate containers for large-scale deployments, auto-scaling, and fault tolerance.  
+   - **Helm**: Simplify Kubernetes configurations with Helm charts for packaging, deploying, and managing applications.
+4. **MLOps Tools**
+   Streamline deployment workflows and maintain model performance over time:  
+   - **CI/CD for ML**: Implement continuous integration and delivery pipelines tailored for machine learning workflows.  
+   - **Monitoring**: Track model performance, identify data drift, and detect anomalies using tools like Prometheus and Grafana.
+5. **Cloud Services**
+   Take advantage of cloud platforms for flexible and scalable model deployments:  
+   - **AWS SageMaker**: Deploy models in a fully managed environment with integrated training and hosting capabilities.  
+   - **Google AI Platform**: Train and deploy models on Google Cloud.  
+   - **Azure ML**: Use Microsoft's platform for comprehensive model deployment and monitoring.  
+   - **Serverless Deployments**: Explore serverless platforms like AWS Lambda and GCP Cloud Functions for lightweight, on-demand deployments.
+6. **Scaling**
+   Understand how to handle traffic spikes and ensure smooth user experiences:  
+   - **Load Balancing**: Distribute incoming requests across multiple instances to ensure high availability and low latency.  
+   - **Distributed Systems**: Learn the principles of horizontal and vertical scaling to optimize resource usage.
+This comprehensive coverage ensures that you gain both theoretical knowledge and practical experience to deploy machine learning models effectively, regardless of the use case or environment.
