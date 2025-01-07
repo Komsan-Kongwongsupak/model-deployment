@@ -67,3 +67,28 @@ To get started with this repository, ensure you meet the following requirements:
    - Familiarity with machine learning models, including how they are trained and used for inference, is recommended.
 
 > **Note:** Each sub-directory in this repository covers a specific deployment technique and may have additional prerequisites. Be sure to check the `README` file within each sub-directory for the specific requirements and instructions related to that composition.
+
+## How to Use
+
+Follow the steps below to get started with this repository:
+
+1. **Clone the Repository**  
+   Begin by cloning the repository into your local environment:  
+   ```bash
+   git clone https://github.com/Komsan-Kongwongsupak/model-deployment.git
+   cd model-deployment
+   ```
+
+2. **Navigate to a Sub-Directory**  
+   Each sub-directory in this repository demonstrates a specific model deployment technique. Navigate to the desired sub-directory based on the deployment method you want to explore:  
+   ```bash
+   cd <sub-directory-name>
+   ```
+
+3. **Set Up the Virtual Environment**  
+   The environment configuration for each technique is provided in the sub-directory’s `README`. Follow the instructions there to set up a virtual environment that matches the one used in the repository.
+
+4. **Follow the Instructions in the README**  
+   Each sub-directory contains a `README` file with detailed instructions. Follow these to learn how to set up, configure, and utilize the specific deployment technique demonstrated in that sub-directory.
+
+> **Tip:** Explore multiple sub-directories to gain insights into a variety of deployment methods, compare them, and choose the one that best fits your use case.
