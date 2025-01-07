@@ -55,3 +55,15 @@ This repository demonstrates various techniques for deploying machine learning m
    - **Distributed Systems**: Learn the principles of horizontal and vertical scaling to optimize resource usage.
      
 This comprehensive coverage ensures that you gain both theoretical knowledge and practical experience to deploy machine learning models effectively, regardless of the use case or environment.
+
+## Prerequisites
+
+To get started with this repository, ensure you meet the following requirements:
+
+1. **Python Version**  
+   - Python **3.11.4** or later is required for compatibility with the examples and tools used in this repository.
+
+2. **Basic Understanding of ML Models**  
+   - Familiarity with machine learning models, including how they are trained and used for inference, is recommended.
+
+> **Note:** Each sub-directory in this repository covers a specific deployment technique and may have additional prerequisites. Be sure to check the `README` file within each sub-directory for the specific requirements and instructions related to that composition.
