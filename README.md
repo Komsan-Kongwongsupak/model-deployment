@@ -35,13 +35,14 @@ This repository explores a wide range of techniques for deploying machine learni
    - Managing high traffic with load balancing.  
    - Understanding horizontal and vertical scaling for distributed systems.
 This repository is designed for AI/ML engineers, data scientists, data engineers, programmers, and anyone interested in learning about machine learning model deployment. Whether you're just starting out or looking to enhance your deployment strategies, you'll find valuable resources and hands-on examples to help you apply these techniques to your projects.
-### Techniques Covered
+## Techniques Covered
 This repository demonstrates various techniques for deploying machine learning models, ranging from simple setups to advanced, scalable systems. Each technique is accompanied by practical examples, step-by-step guides, and configurations to help you implement them. Below is a breakdown of the techniques covered:
 1. **Model Serving**
    Learn how to serve machine learning models for real-time predictions via APIs and specialized serving tools:  
    - **REST APIs**: Build APIs using frameworks like Flask, FastAPI, and Django to serve models and handle requests.  
    - **gRPC**: Explore gRPC for high-performance, low-latency model communication.  
    - **Model Serving Tools**: Use tools like TensorFlow Serving, TorchServe, and MLflow Models for efficient and scalable model deployment.
+     
 2. **Containerization**
    Deploy models in consistent environments using containers:  
    - **Docker**: Containerize your machine learning applications to ensure portability and reproducibility across environments.  
