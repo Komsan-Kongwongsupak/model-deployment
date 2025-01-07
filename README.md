@@ -14,9 +14,7 @@ This repository demonstrates various methods to deploy machine learning models, 
 ## Introduction
 Machine learning models can serve as powerful tools, akin to having additional "brains" to solve complex problems. However, the true potential of these models lies in their ability to be integrated into real-world applications. For this, AI/ML engineers and system developers must understand how to deploy these models effectively based on specific use cases, data requirements, and infrastructure constraints.
 
-There is no one-size-fits-all approach to model deployment. Depending on factors such as the scale of predictions, the platform hosting the software, and the intended use case, different deployment methods may be more suitable. Understanding and comparing these methods is crucial for selecting the optimal approach for your scenario.
-
-This repository explores a wide range of techniques for deploying machine learning models, covering key topics such as model serving, containerization, orchestration, MLOps tools, cloud services, etc.
+There is no one-size-fits-all approach to model deployment. Depending on factors such as the scale of predictions, the platform hosting the software, and the intended use case, different deployment methods may be more suitable. Understanding and comparing these methods is crucial for selecting the optimal approach for your scenario. This repository explores a wide range of techniques for deploying machine learning models, covering key topics such as model serving, containerization, orchestration, MLOps tools, cloud services, etc. Therefore, they will meet the purpose stated above as they allow you to compare different approaches in various factors.
 
 This repository is designed for AI/ML engineers, data scientists, data engineers, programmers, and anyone interested in learning about machine learning model deployment. Whether you're just starting out or looking to enhance your deployment strategies, you'll find valuable resources and hands-on examples to help you apply these techniques to your projects.
 
