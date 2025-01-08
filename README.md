@@ -133,3 +133,6 @@ Contributions are welcome! If you have ideas to improve the repository or want t
 - Suggestions for additional use cases or scaling strategies.
 
 Your contributions will help enhance this repository and make it a better resource for the community! Thank you for your support.
+
+## License
+This project is licensed under the [MIT License](LICENSE).
