@@ -7,8 +7,9 @@ class LabelEncoderTransformer(BaseEstimator, TransformerMixin):
         self.encoder = LabelEncoder()
 
     def fit(self, X, y=None):
-        self.encoder.fit(X)
+        self.encoder.fit(X)  # Fit the LabelEncoder with the input data
         return self
 
     def transform(self, X):
+        # Transform the data and reshape it to a 2D array to maintain consistency with sklearn transformers
         return self.encoder.transform(X).reshape(-1, 1)
