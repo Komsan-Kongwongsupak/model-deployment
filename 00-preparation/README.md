@@ -7,11 +7,12 @@ This directory demonstrates the preparation steps for the machine learning model
 There are two main components in this directory:  
 
 1. **Data**  
+
    The dataset used in this project is sourced from Kaggle: [Energy Consumption Dataset](https://www.kaggle.com/datasets/govindaramsriram/energy-consumption-dataset-linear-regression).  
    - Purpose: Predict energy consumption based on various building features and environmental factors.  
    - File location: The dataset is saved in the `data` directory as a CSV file named `test_energy_data.csv`.  
 
-2. **Jupyter Notebook**  
+3. **Jupyter Notebook**  
    - **train.ipynb**: The main notebook used for creating the machine learning model, located in the `notebook` directory.  
    - **extended_modules**: A sub-directory within `notebook` containing additional Python modules that support the data science process in the notebook.  
 
