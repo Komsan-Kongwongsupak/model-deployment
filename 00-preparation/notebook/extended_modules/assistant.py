@@ -111,25 +111,34 @@ def cast(x):
         else:
             return str(x)
 
+# Function to split the data into training and testing sets
 def split_data(df, target, test_ratio):
-    X = df.drop(columns=target)
-    y = df[["Energy Consumption"]]
+    # Separate the features (X) and target (y)
+    X = df.drop(columns=target)  # Features
+    y = df[["Energy Consumption"]]  # Target variable
+    
+    # Perform the train-test split
     X_train, X_test, y_train, y_test = train_test_split(X, y, test_size=test_ratio)
     return X_train, X_test, y_train, y_test
 
+# Function to import pre-split train and test datasets from CSV files
 def import_train_test(path, validate=False):
+    # Define filenames based on whether validation is used
     if not validate:
-        fnames = ["X_train", "X_test", "y_train", "y_test"]
+        fnames = ["X_train", "X_test", "y_train", "y_test"]  # Default: train-test split
     else:
-        fnames = ["X_train_train", "X_validate", "y_train_train", "y_validate"]
+        fnames = ["X_train_train", "X_validate", "y_train_train", "y_validate"]  # For validation split
 
+    # Load the datasets from CSV files into dataframes
     dfs = [
         pd.read_csv(os.path.join(path, f"{fname}.csv")) \
             for fname in fnames
     ]
     return dfs[0], dfs[1], dfs[2], dfs[3]
 
+# Function to export train and test datasets to CSV files
 def export_train_test(X_train, X_test, y_train, y_test, path, validate=False):
+    # Save the datasets to CSV files based on whether validation is used
     if not validate:
         X_train.to_csv(os.path.join(path, "X_train.csv"), index=False)
         X_test.to_csv(os.path.join(path, "X_test.csv"), index=False)
