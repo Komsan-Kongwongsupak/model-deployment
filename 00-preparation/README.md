@@ -64,7 +64,7 @@ There are two main components in this directory:
      *(You can modify the IP address and port number, but ensure you update the notebook to match the new tracking URI.)*  
 
 ## Output  
-The output of this process is a pickled machine learning model saved in the `model` folder as `forecaster.pkl`. This model can be used for predicting energy consumption based on the dataset's features.
+The output of this process is a pickled machine learning model saved in the `model` folder as `predictor.pkl`. This model can be used for predicting energy consumption based on the dataset's features.
 
 ## Notes  
 - The dataset must be in the correct location (`data/test_energy_data.csv`) for the scripts to work as intended.  
