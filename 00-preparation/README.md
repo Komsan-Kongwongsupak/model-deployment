@@ -52,6 +52,17 @@ There are two main components in this directory:
 4. **Ensure the Jupyter notebook environment is configured**  
    Make sure the notebook (`train.ipynb`) is set to use the virtual environment created in the previous steps.
 
+5. **Start the MLflow server**  
+   - Enter the `notebook` folder in your terminal:  
+     ```bash  
+     cd notebook  
+     ```  
+   - Start the MLflow server with the following command:  
+     ```bash  
+     mlflow server --host 127.0.0.1 --port 8080  
+     ```  
+     *(You can modify the IP address and port number, but ensure you update the notebook to match the new tracking URI.)*  
+
 ## Output  
 The output of this process is a pickled machine learning model saved in the `model` folder as `forecaster.pkl`. This model can be used for predicting energy consumption based on the dataset's features.
 
