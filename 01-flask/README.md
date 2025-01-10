@@ -21,40 +21,9 @@ This directory consists of the following components:
    A file that specifies the necessary libraries and modules required to run the application. It ensures that the virtual environment is set up with the correct dependencies.
 
 ## Prerequisites  
-- Python 3.11.4 or later.  
+- Python 3.11.4 or later.
 
 ## How to Run  
-
-1. **Set up a Python virtual environment**  
-   - Enter the directory via the command line.  
-   - Run the following command to create a virtual environment:  
-     ```bash  
-     python -m venv env  
-     ```  
-     *(You can replace `env` with any name of your choice.)*  
-
-2. **Activate the virtual environment**  
-   - **Linux/MacOS**:  
-     ```bash  
-     source env/bin/activate  
-     ```  
-   - **Windows (Command Prompt)**:  
-     ```cmd  
-     env\Scripts\activate  
-     ```  
-   - **Windows (PowerShell)**:  
-     ```powershell  
-     .\env\Scripts\Activate.ps1  
-     ```  
-
-3. **Install dependencies**  
-   Run the following command to install the required libraries:  
-   ```bash  
-   pip install -r requirements.txt  
-   ```  
-
-4. **Ensure the Jupyter notebook environment is configured**  
-   Make sure the application (`app.py`) is set to use the virtual environment created in the previous steps.## How to Run  
 
 1. **Set up a Python virtual environment**  
    - Enter the directory via the command line.  
