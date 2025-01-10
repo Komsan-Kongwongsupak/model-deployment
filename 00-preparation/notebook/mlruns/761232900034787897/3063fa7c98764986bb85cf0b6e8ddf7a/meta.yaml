@@ -1,0 +1,15 @@
+artifact_uri: mlflow-artifacts:/761232900034787897/3063fa7c98764986bb85cf0b6e8ddf7a/artifacts
+end_time: 1736482899868
+entry_point_name: ''
+experiment_id: '761232900034787897'
+lifecycle_stage: active
+run_id: 3063fa7c98764986bb85cf0b6e8ddf7a
+run_name: persistent-fowl-423
+run_uuid: 3063fa7c98764986bb85cf0b6e8ddf7a
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1736482899776
+status: 3
+tags: []
+user_id: 007955_Admin

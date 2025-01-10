@@ -1,0 +1,6 @@
+artifact_location: mlflow-artifacts:/761232900034787897
+creation_time: 1736480841564
+experiment_id: '761232900034787897'
+last_update_time: 1736480841564
+lifecycle_stage: active
+name: energy-consumption-prediction

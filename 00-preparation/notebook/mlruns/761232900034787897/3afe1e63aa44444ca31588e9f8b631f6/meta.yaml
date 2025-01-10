@@ -1,0 +1,15 @@
+artifact_uri: mlflow-artifacts:/761232900034787897/3afe1e63aa44444ca31588e9f8b631f6/artifacts
+end_time: 1736482899634
+entry_point_name: ''
+experiment_id: '761232900034787897'
+lifecycle_stage: active
+run_id: 3afe1e63aa44444ca31588e9f8b631f6
+run_name: crawling-gull-990
+run_uuid: 3afe1e63aa44444ca31588e9f8b631f6
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1736482894650
+status: 3
+tags: []
+user_id: 007955_Admin
